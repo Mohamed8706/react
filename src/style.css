@@ -1,0 +1,114 @@
+/* Global CSS */
+body {
+  font-family: "Cairo", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  padding: 10px 90px;
+  margin: 0 auto;
+
+}
+.shadow {
+  box-shadow: 1px 1px 10px 1px #cbc9c9;
+}
+.p-2 {
+  padding: 10px 0;
+}
+/* Header */
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+@media (max-width: 430px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+  }
+  nav div {
+    flex-direction: column;
+  }
+  .container {
+    padding: 5px 10px;
+    font-size: 0.3rem;
+  }
+}
+@media (max-width: 660px)  {
+  .container {
+    padding: 5px 10px;
+    
+  }
+}
+form {
+  padding: 20px;
+  box-shadow:rgba(0, 0, 0, 0.1) 0px 2px 15px;
+
+}
+.register {
+  width: 600px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow:rgba(0, 0, 0, 0.1) 10px 2px 15px;
+}
+input {
+  border-radius: 10px;
+  outline:none;
+  border: 2px solid white;
+  padding:10px 20px;
+  width: 100%;
+  box-shadow: 0 0 1px 1px rgb(0, 0, 0, 0.1);
+  margin: 10px 0;
+  transition: 0.3s;
+  
+}
+input:focus {
+  border: 2px solid #86b7fe;
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.register button, .register-nav {
+  outline: none;
+  background-color: #86b7fe;
+  border:none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px solid white;
+  cursor: pointer;
+  text-decoration: none;
+}
+@media (max-width: 420px) {
+  .register button, .register-nav {
+  min-width: fit-content;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  }
+  .register {
+  font-size: 10px;
+  }
+  
+}
+.register button:hover, .register-nav:hover{
+  background-color: white;
+  color: #86b7fe;
+  border: 2px solid #86b7fe;
+}
+label {
+  font-weight:500;
+  padding: 8px;
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 0;
+}

@@ -1,0 +1,10 @@
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-image: url(./langding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 83px);
+
+}
