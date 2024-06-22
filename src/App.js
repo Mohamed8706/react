@@ -19,7 +19,7 @@ export default function App() {
 
 
     return <div className='app'>
-        
+        // Routes
         <Routes>
             {/* public routes */}
             <Route path='/' element={<Home />} />
