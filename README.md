@@ -9,7 +9,7 @@ Welcome to the React Project1 repository! This project serves as a foundational 
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
